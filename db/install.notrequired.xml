@@ -3,6 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
     <TABLES>
+        
+        <!--
+        
+        Not required as already defined in mod/coursecodegen
+        
         <TABLE NAME="course_keys" COMMENT="table to store course keys">
             <FIELDS>
                 <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="courseid"/>
@@ -32,6 +37,7 @@
                 <KEY NAME="package_id" TYPE="foreign" FIELDS="package_id" REFTABLE="course_key_packages" REFFIELDS="id" PREVIOUS="primary" />
             </KEYS>
         </TABLE>
-    
+        -->
+        
     </TABLES>
 </XMLDB>
